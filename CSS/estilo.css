@@ -58,11 +58,13 @@ select {
 }
 
 .Foto {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
 }
 
 .Descripcion {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
   text-align: justify;
   -ms-flex-line-pack: center;
       align-content: center;
@@ -76,6 +78,7 @@ select {
       flex-basis: 50%;
   padding: 20px 0px 0px 50px;
   background-color: #FFF5EB;
+  margin: auto;
 }
 
 .Escribime {
@@ -83,6 +86,7 @@ select {
       flex-basis: 50%;
   background-color: #ffeddb;
   padding: 20px 0px 0px 50px;
+  margin: auto;
 }
 
 /* Media Query */
@@ -293,6 +297,78 @@ select {
   .w-6 {
     grid-column: span 1;
   }
+}
+
+.grillaCurso {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  gap: 20px 20px;
+  grid-auto-flow: row;
+      grid-template-areas: "curso-1 Desc1 Desc1" "Curso-2 Desc2 Desc2" "Curso-3 Desc4 Desc4";
+  text-align: justify;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.curso-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: curso-1;
+}
+
+.curso-1 img {
+  border-radius: 20px;
+}
+
+.Desc1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: Desc1;
+}
+
+.Curso-2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: Curso-2;
+}
+
+.Curso-2 img {
+  border-radius: 20px;
+}
+
+.Desc2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: Desc2;
+}
+
+.Curso-3 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: Curso-3;
+}
+
+.Curso-3 img {
+  border-radius: 20px;
+}
+
+.Desc4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: Desc4;
 }
 
 * {

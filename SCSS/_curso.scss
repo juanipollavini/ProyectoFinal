@@ -1,0 +1,46 @@
+.grillaCurso {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas: "curso-1 Desc1 Desc1" "Curso-2 Desc2 Desc2" "Curso-3 Desc4 Desc4";
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.curso-1 {
+    grid-area: curso-1;
+    img {
+        border-radius: 20px;
+    }
+}
+
+.Desc1 {
+    grid-area: Desc1;
+}
+
+.Curso-2 {
+    grid-area: Curso-2;
+    img {
+        border-radius: 20px;
+    }
+}
+
+.Desc2 {
+    grid-area: Desc2;
+}
+
+.Curso-3 {
+    grid-area: Curso-3;
+    img {
+        border-radius: 20px;
+    }
+}
+
+.Desc4 {
+    grid-area: Desc4;
+}

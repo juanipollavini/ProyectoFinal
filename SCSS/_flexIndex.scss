@@ -10,21 +10,19 @@
 }
 
 .Descripcion {
-    padding-right: 100px;
-    padding-top: 100px;
     text-align: justify;
+    align-content: center;
+    align-items: center;
 }
 
 .Contacto {
     flex-basis: 50%;
-    height: 600px;
     padding: 20px 0px 0px 50px;
     background-color: $colfondo2;
 }
 
 .Escribime {
     flex-basis: 50%;
-    height: 600px;
     background-color: #ffeddb;
     padding: 20px 0px 0px 50px;
 }

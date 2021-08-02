@@ -1,0 +1,26 @@
+textarea {
+    width: 55%;
+    height: 100px;
+    border-radius: 3px;
+    background-color: $coltipo;
+    border-style: none;
+    padding: 5px 5px 5px 10px;
+    /*resize: vertical | horizontal | none | both*/
+}
+
+input {
+    width: 27%;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 5px 5px 10px;
+}
+
+.asunto {
+    width: 55%;
+}
+
+select {
+    width: 55%;
+    border-style: none;
+    padding: 5px 5px 5px 5px;
+}

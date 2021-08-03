@@ -1,10 +1,10 @@
 .grillaCurso {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 20px 20px;
     grid-auto-flow: row;
-    grid-template-areas: "curso-1 Desc1 Desc1" "Curso-2 Desc2 Desc2" "Curso-3 Desc4 Desc4";
+    grid-template-areas: "curso-1  Desc1" "Curso-2  Desc2" "Curso-3  Desc4";
     text-align: justify;
     justify-content: center;
     align-items: center;

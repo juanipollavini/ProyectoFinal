@@ -25,9 +25,9 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        gap: 20px 20px;
+        gap: 0.5rem 0.5rem;
         grid-auto-flow: row;
-        grid-template-areas: "curso-1" "Desc1" "Curso-2" "Desc2" "Curso-3" "Desc4";
+        grid-template-areas: "curso-1" "Desc1" "Curso-2" "Desc2" "Curso-3" "Desc3";
         text-align: justify;
         justify-content: center;
         align-items: center;
@@ -61,9 +61,9 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        gap: 20px 20px;
+        gap: 0.5rem 0.5rem;
         grid-auto-flow: row;
-        grid-template-areas: "curso-1  Desc1" "Curso-2  Desc2" "Curso-3  Desc4";
+        grid-template-areas: "curso-1  Desc1" "Curso-2  Desc2" "Curso-3  Desc3";
         text-align: justify;
         justify-content: center;
         align-items: center;
